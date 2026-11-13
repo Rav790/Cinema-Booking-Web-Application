@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# SQLite Database (auto-created & seeded on launch)
+server/cinema.db
+server/cinema.db-wal
+server/cinema.db-shm
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor & Environment
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+.env.local
